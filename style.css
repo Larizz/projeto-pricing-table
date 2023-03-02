@@ -1,0 +1,200 @@
+/* Configurações globais da aplicação */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f9fbfc;
+}
+
+h2 {
+  font: normal 400 1.6rem "Open Sans";
+}
+
+main {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: -6rem;
+}
+
+main .container_basic_card {
+  margin-top: -1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 190px;
+  padding: 1.5rem 1.5rem 1.5rem 0rem;
+  font: normal 400 14px "Open Sans";
+  color: rgba(130, 135, 153, 1);
+  list-style-type: none;
+}
+
+h4 {
+  font: normal 400 14px "Open Sans";
+  color: rgba(130, 135, 153, 1);
+}
+
+.container_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+  color: white;
+  background: #1d539e;
+}
+
+.container_header_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50rem;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.container_card {
+  display: flex;
+  width: 355px;
+  height: 470px;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.131));
+  background: white;
+}
+
+.container_basic_card {
+  display: flex;
+  width: 355px;
+  height: 500px;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.131));
+  background: white;
+}
+
+.basic_card_content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.header_card {
+  display: flex;
+  background: #ffcc29;
+  height: 75px;
+  border-radius: 8px 8px 0px 0px;
+  align-items: center;
+  padding: 1.9rem;
+  justify-content: space-between;
+}
+
+.button_container {
+  background: #1d539e;
+  color: white;
+  font: normal 600 12px "Open Sans";
+  padding: 8px 24px 8px 24px;
+  border-radius: 50px;
+}
+
+.container_free_card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem;
+}
+
+.category {
+  margin-bottom: 1.6rem;
+}
+
+.container_price {
+  display: flex;
+  height: 50px;
+  margin-bottom: 1.6rem;
+  color: rgba(30, 35, 56, 1);
+}
+
+.container_price .price {
+  font: normal 700 2rem "Open Sans";
+  color: rgba(30, 35, 56, 1);
+  padding-bottom: 1rem;
+}
+
+.basic_card_content h4 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.container_price .price_small {
+  color: rgba(30, 35, 56, 1);
+  font: normal 700 1rem "Open Sans";
+}
+
+.container_price a {
+  display: flex;
+  align-items: center;
+  color: rgba(130, 135, 153, 1);
+}
+
+.basic_card_content ul {
+  padding: 20px 0 1rem 0rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container-price {
+  display: flex;
+  height: 50px;
+  margin-bottom: 1.6rem;
+  color: rgba(30, 35, 56, 1);
+}
+
+.container-price .price {
+  font: normal 700 2rem "Open Sans";
+  color: rgba(30, 35, 56, 1);
+  padding-bottom: 1rem;
+}
+
+.container_card h4 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.btn-primary {
+  padding: 12px 24px 14px 24px;
+  border: 3px solid #1d539e;
+  border-radius: 10px;
+  color: #1d539e;
+  font: normal 600 18px "Open Sans";
+  background-color: white;
+}
+
+.btn-basic {
+  padding: 12px 24px 14px 24px;
+  background: #1d539e;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  font: normal 600 18px "Open Sans";
+  width: 16rem;
+  margin: 0 auto;
+}
+
+/*----------------- Media Query (responsividade) ----------------*/
+
+@media screen and (max-width: 1000px) {
+  .container_header_text {
+    width: 350px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
